@@ -1,5 +1,15 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+
 function App() {
-  return <h1>lws-project-1-tasker</h1>;
+  return (
+    <>
+      <Header />
+      <HeroSection />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
